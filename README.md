@@ -2,7 +2,16 @@
 1. [Kotlin for Android Developers][1] / [Kotlin for android Developers(中文翻译)][2]
 2. [Kotlin Reference][3] / [Kotlin Reference(中文)][4]
 
+# About Kotlin
+> Kotlin，如前面所说，它是JetBrains开发的基于JVM的语言。JetBrains因为创造了一个强大的Java开发IDE被大家所熟知。Android Studio，官方的Android > > > IDE，就是基于Intellij，作为一个该平台的插件。Kotlin是使用Java开发者的思维被创建的，Intellij作为它主要的开发IDE。
 
+### 优势： 
+- 不影响性能
+- 100%兼容Java
+- 简洁、更具表达性（如 对lambda语法支持、运用）
+- 安全：在编译时即处理了空（null）安全，这个后续细讲
+- 函数式：Kotlin中加入了函数式编程的概念，这也进一步优化了代码的简洁性和可读性。
+- 高度互操作性：Kotlin与Java间可以完美的进行协作，甚至可以在一个项目中使用Kotlin和Java两种语言混合编程。
 
 
   
