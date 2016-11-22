@@ -10,7 +10,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        message.text = "Hello Kotlin!";
+        var person = Person("wiky",23)
+//        person.name = "wiky"
+//        person.age = -1
+        xMessage.text = person.name
+        person.print()
     }
 
 }
