@@ -92,7 +92,6 @@ class Person {
   var person = Person("wiky",23) //无需使用关键字 new
   // person.name = "wiky"
   // person.age = -1
-  //
 ```
 
 
