@@ -17,7 +17,7 @@
 
   
 # Setup
-  Thanks [Setup Kotlin for Android Studio][5]
+  Thanks [Create your first Android project using Kotlin ][5]
   
 # Lesson 1
 
@@ -96,4 +96,4 @@ class Person {
   [2]: https://www.gitbook.com/book/wangjiegulu/kotlin-for-android-developers-zh/details
   [3]: http://kotlinlang.org/docs/reference/
   [4]: https://huanglizhuo.gitbooks.io/kotlin-in-chinese/content/ClassesAndObjects/Classes-and-Inheritance.html
-  [5]: https://medium.com/@elye.project/setup-kotlin-for-android-studio-1bffdf1362e8#.ajsznzpkf
+  [5]: http://antonioleiva.com/create-first-android-project-kotlin/
