@@ -3,7 +3,7 @@
 2. [Kotlin Reference][3] / [Kotlin Reference(中文)][4]
 
 # About Kotlin
-> Kotlin，如前面所说，它是JetBrains开发的基于JVM的语言。JetBrains因为创造了一个强大的Java开发IDE被大家所熟知。Android Studio，
+> Kotlin，它是JetBrains开发的基于JVM的语言。JetBrains因为创造了一个强大的Java开发IDE被大家所熟知。Android Studio，
 > 官方的Android IDE，就是基于Intellij，作为一个该平台的插件。Kotlin是使用Java开发者的思维被创建的，Intellij作为它主要的开发IDE。
 
 ### 优势： 
@@ -40,8 +40,7 @@ xMessage.text = "Hello Kotlin!" //xMessage即为xml中对应id的一个实例（
 class Person {
     /**
      * 构造器
-     * 详情：
-     * https://huanglizhuo.gitbooks.io/kotlin-in-chinese/content/ClassesAndObjects/Classes-and-Inheritance.html
+     * 详情：https://huanglizhuo.gitbooks.io/kotlin-in-chinese/content/ClassesAndObjects/Classes-and-Inheritance.html
      */
     constructor(name: String, age: Int) {
         this.name = name
@@ -56,8 +55,7 @@ class Person {
 
     /**
      * 自定义处理get()与set()
-     * field : 如果需要在getter和setter中访问这个属性自身的值，我们需要利用field这个预留字段来访问，
-     *       它会被编译器找到正在使用的并自动创建。
+     * field : 如果需要在getter和setter中访问这个属性自身的值，我们需要利用field这个预留字段来访问，它会被编译器找到正在使用的并自动创建。
      */
     var age: Int = -1
         get() {
@@ -79,11 +77,10 @@ class Person {
      * 方法（函数）print ,关键字 fun
      *
      * @param message （参数）打印内容，类型String
-     * String = name + ", " + age  :
-     *       指定了一个默认值。这意味着改参数在你调用的时候可以传入或者不传，这样可以避免你需要的重载函数
+     * = "$name , $age"  : 指定了一个默认值。这意味着改参数在你调用的时候可以传入或者不传，这样可以避免你需要的重载函数：
      */
-    fun print(message: String = name + ", " + age) {
-        Log.e("Person", message)
+    fun print(message: String = "$name , $age") {
+        Log.e("Person", "message = $message") // 可以看到特殊字符$的使用，让我们在拼接字符串时变得更为简单
     }
 }
 ```
